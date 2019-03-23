@@ -1,0 +1,22 @@
+.col-md-8{
+  background-color:#1C1C1C;
+}
+.col-md-2{
+  background-color: #363636;
+}
+label{
+  color: #F8F8FF;
+}
+h1,h2{
+  margin-top: 140px;
+  color: #F8F8FF;
+}
+
+.card-text{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+video{
+  border: solid 1px White;
+}
+
