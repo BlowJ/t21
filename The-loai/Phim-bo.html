@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Phim Bộ</title>
+  <link rel="icon" href="../images/logo.jpg"/>
+  <link href="../external stylesheet/bootstrap.min.css" rel="stylesheet">
+  <link href="../external stylesheet/style.css" rel="stylesheet">
+</head>
+<body>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.12&appId=532331000501204&autoLogAppEvents=1';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  <div class="container-fluid">
+    <!--Đây là nội dung-->
+    <div class="row">
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-8">
+        <div align="center">
+          <a><h1><b>Thể Loại:Phim Bộ</b></h1></a>
+          <br>
+          <video width="600" height="336" controls autoplay loop>
+            <source src="../Videos/GOT.MP4" type="video/mp4" title="Game Of Thrones">
+            </video>
+            <br></br>
+            <div class="card" style="width:700px;">
+              <img class="card-img-top" src="../images/cardimg-4.jpg" alt="Card image" style="width:100%;"title="Game Of Thrones">
+              <div class="card-body">
+                <h4 class="card-title">Game Of Thrones</h4>
+                <div align="left"><p class="card-text">Tập 7 The Dragon and the Wolf (Rồng và sói) để lại nhiều bí ẩn vẫn chưa được giải đáp về tương lai của 7 vương quốc, về các nhân vật quyền lực ở đại lục Westeros...</p></div>
+                <br>
+                <a href="Phim-Bo/Review-Game-Of-Thrones.html" class="btn btn-primary"title="Click vào đây để xem Review">Xem Chi Tiết</a>
+                <br></br>
+              </div>
+            </div>
+            <br>
+            <br>
+            <div class="card" style="width:700px;">
+              <img class="card-img-top" src="../images/cardimg-5.jpg" alt="Card image" style="width:100%;"title="The Walking Dead">
+              <div class="card-body">
+                <h4 class="card-title">The Walking Dead</h4>
+                <div align="left"><p class="card-text">mùa thứ 8 của "The Walking Dead" vừa mới ra mắt đem đến cho người hâm một một cái nhìn khác về cốt truyện của "All Out War". Bộ phim sẽ đưa Alexandria, Hilltop và The Kingdom vào cuộc chiến sống còn với Negan và Saviors...</p></div>
+                <br>
+                <a href="Phim-Bo/Review-The-Walking-Dead.html" class="btn btn-primary"title="Click vào đây để xem Review">Xem Chi Tiết</a>
+                <br></br>
+              </div>
+            </div>
+            <br>
+            <br>
+            <div class="card" style="width:700px;">
+              <img class="card-img-top" src="../images/cardimg-6.jpg" alt="Card image" style="width:100%;"title="The Flash">
+              <div class="card-body">
+                <h4 class="card-title">The Flash</h4>
+                <div align="left"><p class="card-text">The Flash đã trở lại thế giới hiện thực từ trong những tia chớp của mình, nhưng dường như anh đã bị mất đi trí nhớ. Anh còn trở nên lạ lẫm với bộ râu lâu ngày không cạo và những người bạn xung quanh thì đang liên tục cố gắng đánh thức anh...</p></div>
+                <br>
+                <a href="Phim-Bo/Review-The-Flash.html" class="btn btn-primary"title="Click vào đây để xem Review">Xem Chi Tiết</a>
+                <br></br>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4" style="margin-top:140px">
+            </div>
+          </div>
+          <!--Đây là thanh điều hướng-->
+          <nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            </button> <a class="navbar-brand" href="../Trang-Chu.html" title="Trang Chủ"> <img src="../images/logo.jpg" class="rounded-circle"></a>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown">Thể loại</a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="Phim-le.html">Phim Lẻ</a>
+                    <a class="dropdown-item" href="#">Phim Bộ</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown">Quốc Gia</a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="../Quoc-gia/Au-My.html">Âu-Mỹ</a>
+                    <a class="dropdown-item" href="../Quoc-gia/Chau-A.html">Châu Á</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../Tin-Tuc/Tin-Tuc.html">Tin Tức</a>
+                </li>
+              </ul>
+            </div>
+            <!-- Đây là nút login bằng facebook -->
+            <fb:login-button scope="public_profile,email" onlogin="checkLoginState();" class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="login_with" data-show-faces="false" data-auto-logout-link="true" data-use-continue-as="true">
+          </fb:login-button>
+          <div id="status" style="margin-left: 5px">
+          </div>
+        </nav>
+
+      </div>
+      <div class="col-md-2">
+      </div>
+    </div>
+  </div>
+
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/scripts.js"></script>
+  <script src="../js/popper.min.js"></script>
+</body>
+</html>
